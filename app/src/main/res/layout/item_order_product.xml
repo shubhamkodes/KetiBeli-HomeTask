@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ic_launcher_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Beli Magic Com GRATIS Valencaia"
+        android:textColor="@color/gray_text_200"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/ivThumbnail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="Rp. 246.00"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@id/tvName"
+        app:layout_constraintStart_toStartOf="@id/tvName"
+        app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="Jhumlah: 1"
+        android:textColor="@color/gray_text_100"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@id/tvPrice"
+        app:layout_constraintStart_toStartOf="@id/tvPrice"
+        app:layout_constraintTop_toBottomOf="@id/tvPrice" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border_rounded_orange"
+        android:fontFamily="@font/roboto_medium"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/product_sent"
+        android:textColor="@color/orange"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvQty"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvQty" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">KetiBeli - HomeTask</string>
+
+    <string name="order_confirmed">Pesanan Diproses</string>
+    <string name="order_dispatched">Pesanan Dikirim</string>
+    <string name="order_completed">Pesanan Tiba</string>
+    <string name="order_cancelled">Pesanan Dibatalkan</string>
+    <string name="my_orders">Pesanan Saya</string>
+    <string name="order_no">Pesanan</string>
+    <string name="product_sent">Produk terkirim</string>
+    <string name="something_went_wrong">Something went wrong!!</string>
+    <string name="retry">Retry</string>
+    <string name="internet_not_available">Check your connection \nYou don\'t seem to have an active internet connection. \nPlease check your connection and try again.</string>
+    <string name="status_product_sent">Produk terkirim</string>
+    <string name="quantity">Jumlah</string>
+    <string name="status_cancelled">Pengiriman dibatalkan</string>
+    <string name="status_product_is_being_prepared">Produk sedang disiapkan</string>
+    <string name="order_status_cancelled">Order Status CANCELLED</string>
+</resources>
